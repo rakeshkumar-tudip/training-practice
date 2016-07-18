@@ -1,0 +1,102 @@
+
+.container{
+	width: 97vmin;
+	height: 53vmin;
+	border:0.4vmin solid;
+	padding: 1.5vmin;
+	position: relative;
+}
+/*----------------------------------------------
+css for three vertical div
+-----------------------------------------------*/
+.centerdiv{
+	position:absolute;
+    top:50%;
+    left:50%;
+    display: inline-block;
+	margin-left: -25px;
+	margin-top: -18px;
+}
+.leftdiv{
+	width: 35%;
+	height: 100%;
+	float: left;
+	position: relative;
+}
+.rightdiv{
+	width: 35%;
+	height: 100%;
+	float: right;
+	position: relative;
+}
+.divholder{
+	width: 35%;
+	height: 100%;
+}
+.main-center{
+	position:absolute;
+    top:50%;
+    left:50%;
+    display: inline-block;
+	margin-left: -43px;
+	margin-top: -45px;
+}
+/*----------------------------------------------
+css for inner rectangles
+-----------------------------------------------*/
+.inrectangle{
+	width: 93%;
+	height: 40%;
+	border: 2px solid black;
+	padding: 1.5vmin;
+	position: relative;
+}
+/*----------------------------------------------
+shapes css
+-----------------------------------------------*/
+.dsquare{
+	width: 40px;
+	height: 40px;
+	border: 2px solid black;
+}
+.drectangle{
+	width: 80px;
+	height: 40px;
+	border: 2px solid blue;
+}
+.dcircle{
+	width: 40px;
+	height: 40px;
+	border: 2px solid red;
+	border-radius: 100%;
+}
+.dovel{
+	width: 80px;
+	height: 40px;
+	border: 2px solid purple;
+	border-radius: 50px;
+}
+/*--------Center Circle--------*/
+#bigcircle{
+	width: 85px;
+	height: 85px;
+	border: 2px solid red;
+	border-radius: 100%;
+}
+
+.align-bottom-left{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+.align-bottom-right{
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+.left-side{
+	float: left;
+}
+.right-side{
+	float: right;
+}
