@@ -1,0 +1,29 @@
+<!DOCKTYPE HTML>
+<html>
+	<head>
+		<script>
+		var flag=0;
+		function myFunction(){
+		if(!flag){
+			document.getElementById('myimg').src='pic_bulbon.gif'
+			document.getElementById('onoff').value='Off';
+			flag=1;
+		}
+		else{
+			document.getElementById('myimg').src='pic_bulboff.gif';
+			document.getElementById('onoff').value='On';
+			flag=0;
+		}
+		}
+		</script>
+	</head>
+	
+	<body>
+		
+		<input id="onoff" type="button" value="On" onclick="myFunction()"/>
+		
+		<img id="myimg" src="pic_bulboff.gif"/>
+		
+	</body>
+</html>
+
