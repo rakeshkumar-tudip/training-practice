@@ -4,3 +4,5 @@
 #We are looking into code collaboration example.
 
 #New line added
+
+#Conflict Scenario
