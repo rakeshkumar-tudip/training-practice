@@ -5,4 +5,7 @@
 
 #New line added
 
+
 #Conflict Scenario
+
+#This is before commit example.
